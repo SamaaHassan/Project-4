@@ -15,7 +15,7 @@
 let name = 'Samaa';
 let gpa = 3.5;
 
-function yourResult(name, gpa) {
+function yourResult() {
   let message;
   if (gpa > 3) {
     message = 'Congratulations, you have succeeded and deservedly so.';
@@ -25,4 +25,4 @@ function yourResult(name, gpa) {
   return `Hello ${name}! Your GPA: ${gpa}. ${message}`;
 }
 
-console.log(yourResult(name, gpa));
+console.log(yourResult());
